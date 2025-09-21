@@ -4,6 +4,7 @@ import Hero from "@/components/home/Hero";
 import { Suspense } from "react";
 
 const HomePage = () => {
+  
   return ( 
     <>
       <Hero />

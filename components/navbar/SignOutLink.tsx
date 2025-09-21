@@ -1,22 +1,20 @@
 "use client";
 
-import { SignInButton } from "@clerk/nextjs";
+import { SignOutButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { toast } from "sonner";
 
 const SignOutLink = () => {
   const handleLogout = () => {
-    toast("", {
-      description: "Logout Successful",
-    });
+    toast("Logout Successful", { description: "Logging Out..." });
   };
 
   return (
-    <SignInButton>
+    <SignOutButton>
       <Link href={"/"} className="w-full text-left" onClick={handleLogout}>
         Logout
       </Link>
-    </SignInButton>
+    </SignOutButton>
   );
 };
 
