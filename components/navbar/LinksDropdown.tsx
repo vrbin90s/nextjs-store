@@ -26,7 +26,7 @@ const LinksDropdown = async () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="flex gap-4 max-w-[100px]">
+        <Button variant="outline" className="flex gap-4 max-w-[100px] cursor-pointer">
           <LuAlignLeft className="w-6 h-6" />
           <UserIcon />
         </Button>

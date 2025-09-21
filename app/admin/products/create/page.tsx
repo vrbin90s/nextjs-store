@@ -1,5 +1,6 @@
-import SubmitButton from "@/components/form/Buttons";
-import CheckboxInput from "@/components/form/CheckBoxInput";
+
+import { SubmitButton } from "@/components/form/Buttons";
+import CheckboxInput from "@/components/form/CheckboxInput";
 import FormContainer from "@/components/form/FormContainer";
 import FormInput from "@/components/form/FormInput";
 import ImageInput from "@/components/form/ImageInput";
